@@ -98,10 +98,9 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration:none;
-margin-left: 50px;
+
 display: block;
-padding-top: 32px;
-padding-bottom: 32px;
+
 }
 .flex{
     display: flex;
@@ -112,6 +111,7 @@ display: flex;
  padding-top: 32px;
 padding-bottom: 32px;
 gap: 50px;
+margin-left: 50px;
 
 
 }
@@ -166,8 +166,7 @@ text-decoration:none;
  display: flex;
 flex-wrap: wrap;
 align-items: center;
-padding-top: 32px;
-padding-bottom: 32px;
+
 
 
 }
@@ -177,8 +176,7 @@ flex-wrap: wrap;
 align-items: center;
 margin-left: auto;
 gap: 50px;
-padding-top: 32px;
-padding-bottom: 32px;
+
 }
 .page-header:hover, 
 .page-header:focus {
@@ -202,7 +200,7 @@ text-transform: uppercase;
 color: var(--primari-text-color);
 align-items: center;
 max-width: 696px;
-margin: 0%auto;
+margin: 0 auto;
 
 
 
@@ -236,7 +234,7 @@ margin-top: 40px;
 features sections */ 
 .sections{
     background-color: var(--primari-text-color);
-    padding-top:47px;
+    padding-top: 94px;
     padding-bottom: 47px;
     
 }
@@ -258,6 +256,10 @@ left: 215px;
 top: 1058px;
 
 
+}
+.sections-lane{
+    padding-top: 47px;
+    padding-bottom: 94px;
 }
 .sections-line
 {
@@ -476,6 +478,7 @@ gap: 8px;
  font-size: 16px;
  line-height: 1.87;
  letter-spacing: 0.03em;
+ margin-top: 4px;
  
 }
 .services-link{
