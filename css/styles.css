@@ -312,7 +312,7 @@ margin-bottom: 50px;
 .team-board{
 display: flex;
 gap: 30px;   
-width: calc((100% - 90px) / 4); 
+flex-basis: calc((100% - 90px) / 4); 
 }
 .team-line{
     color: var(--title-info-kolor);
@@ -491,6 +491,9 @@ gap: 8px;
 background-color: var(--footer-color);
 padding-top: 60px;
 padding-bottom: 60px;
+}
+.footer-line{
+    margin-top: 9px;
 }
 .logo-black{
 color: var(--primari-text-color);
