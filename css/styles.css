@@ -81,7 +81,7 @@ line-height: 1.19;
 text-decoration:none;
 margin-left: 0px;
 display: block;
-margin-right: 92px;
+margin-right: 93px;
 }
 .logo-blue{ 
 color: var(--accent-color);
@@ -98,6 +98,8 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration:none;
+padding-top: 32px;
+padding-bottom: 32px;
 
 display: block;
 
@@ -108,10 +110,8 @@ display: block;
 }
 .site-nav {
 display: flex;
- padding-top: 32px;
-padding-bottom: 32px;
 gap: 50px;
-margin-left: 50px;
+
 
 
 }
@@ -337,7 +337,9 @@ letter-spacing: 0.03em;
    margin-bottom: 10px;
 }
 
-
+.footer-mail{
+    margin-bottom: 9px;
+}
 .footer-mail, .footer-tel{
    color: var(--color-footer-adress);
 font-size: 14px;
@@ -361,11 +363,6 @@ font-style: normal ;
     letter-spacing: 0.03em;
     text-decoration:none;
     font-style: normal ;
-
-}
-.footer-tel{
- margin-top: 9px;
- 
 
 }
 
