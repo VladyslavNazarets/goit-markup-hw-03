@@ -68,7 +68,6 @@ ul{
 .container{
 margin:0 auto;
  width: 1200px;
-outline: 2px solid red;
 padding: 0px 15px;
    
 }
@@ -492,7 +491,7 @@ background-color: var(--footer-color);
 padding-top: 60px;
 padding-bottom: 60px;
 }
-.footer-line{
+.footer-line:nth-child( n+2 ) {
     margin-top: 9px;
 }
 .logo-black{
